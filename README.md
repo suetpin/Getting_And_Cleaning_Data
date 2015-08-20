@@ -1,7 +1,7 @@
 This is the course project for the Getting and Cleaning Data Coursera course. 
 The R script, run_analysis.R, does the following:
 
-#Get the data.
+##Get the data.
 Download the file in the data folder and Unzip the file in UCI HAR Dataset folder.
 
 #Step 1: Read and merges the training and the test sets to create an new data set.
