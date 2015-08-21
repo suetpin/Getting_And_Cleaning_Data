@@ -5,18 +5,18 @@ The R script, run_analysis.R, does the following:
 Download the file in the data folder and Unzip the file in UCI HAR Dataset folder.
 
 ###Step 1: Read and merges the training and the test sets to create an new data set.
-There are 3 files for the train data:
-  X_train.txt
-  y_train.txt
-  subject_train.txt
-And 3 files for the test data:
-  X_test.txt
-  y_test.txt
-  subject_test.txt
-Use read.table() command to read the text files into the variables(Activity, Subject and Features).
-Use rbind function to concatenate the data tables(datSubject, datActivity and datFeatures) by rows.
-Set names to variables with names function.
-Merge columns to get the data frame **Data** for all data(Activity, Subject and Features).
+* There are 3 files for the train data:
+  * X_train.txt
+  * y_train.txt
+  * subject_train.txt
+* And 3 files for the test data:
+  * X_test.txt
+  * y_test.txt
+  * subject_test.txt
+* Use read.table() command to read the text files into the variables(Activity, Subject and Features).
+* Use rbind function to concatenate the data tables(datSubject, datActivity and datFeatures) by rows.
+* Set names to variables with names function.
+* Merge columns to get the data frame **Data** for all data(Activity, Subject and Features).
 
 ###Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
 * The objective of this step is to extract features with the word "mean" and "std".
