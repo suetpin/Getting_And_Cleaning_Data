@@ -29,8 +29,8 @@ Merge columns to get the data frame **Data** for all data(Activity, Subject and 
 * Replace **activity** variable in **Data** using descriptive activity names
 
 ###Step 4: Appropriately labels the data set with descriptive variable names.
-Variables activity and subject and names of the activities have been labelled using descriptive names in Step 1 and Step 3.
-In this step, names of Features will labelled using descriptive variable names.
+* Variables activity and subject and names of the activities have been labelled using descriptive names in Step 1 and Step 3.
+* In this step, names of Features will labelled using descriptive variable names.
 prefix t is replaced by time
        f is replaced by frequency
        Acc is replaced by Accelerometer
@@ -39,10 +39,10 @@ prefix t is replaced by time
        BodyBody is replaced by Body
        
 ###Step 5: Creates a second, independent tidy data set and output it.
-In this step, a second, independent tidy data set will be created with the average of each variable for each activity and
-each subject based on the data set in Step 5.
-the last step is to get the aggregated information from the **Data**
-plyr package is used for this approach.
-finally, output a file named "tidydata.txt"
+* In this step, a second, independent tidy data set will be created with the average of each variable for each activity and
+  each subject based on the data set in Step 5.
+* The last step is to get the aggregated information from the **Data**
+* plyr package is used for this approach.
+* Finally, output a file named "tidydata.txt"
 
 prepared by Suet Pin
