@@ -15,7 +15,7 @@
 ######################################################################################################################
 
 ## Get the data
-setwd("C:/Cousera/Module3")
+#setwd("C:/Cousera/Module3")
 if(!file.exists("./data")){dir.create("./data")}
 if(!file.exists("./data/UCI HAR Dataset"))
 {  
