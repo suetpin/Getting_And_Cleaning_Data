@@ -31,12 +31,12 @@ Merge columns to get the data frame **Data** for all data(Activity, Subject and 
 ###Step 4: Appropriately labels the data set with descriptive variable names.
 * Variables activity and subject and names of the activities have been labelled using descriptive names in Step 1 and Step 3.
 * In this step, names of Features will labelled using descriptive variable names.
-prefix t is replaced by time
-       f is replaced by frequency
-       Acc is replaced by Accelerometer
-       Gyro is replaced by Gyroscope
-       Mag is replaced by Magnitude
-       BodyBody is replaced by Body
+  * prefix t is replaced by time
+  * f is replaced by frequency
+  * Acc is replaced by Accelerometer
+  * Gyro is replaced by Gyroscope
+  * Mag is replaced by Magnitude
+  * BodyBody is replaced by Body
        
 ###Step 5: Creates a second, independent tidy data set and output it.
 * In this step, a second, independent tidy data set will be created with the average of each variable for each activity and
