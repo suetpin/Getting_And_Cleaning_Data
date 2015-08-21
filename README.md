@@ -19,9 +19,9 @@ Set names to variables with names function.
 Merge columns to get the data frame **Data** for all data(Activity, Subject and Features).
 
 ###Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
-The objective of this step is to extract features with the word "mean" and "std".
-Use grep function to subset name of features on the word **mean** and **std** and assign to subdataFeaturesNames.
-Subset the data frame **Data** from step 2 with subset function by selected names of features.
+*The objective of this step is to extract features with the word "mean" and "std".
+*Use grep function to subset name of features on the word **mean** and **std** and assign to subdataFeaturesNames.
+*Subset the data frame **Data** from step 2 with subset function by selected names of features.
 
 ###Step 3: Uses descriptive activity names to name the activities in the data set
 The objective of this step is to map the activity labels to their actual activity names.
