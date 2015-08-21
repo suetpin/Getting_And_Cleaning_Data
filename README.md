@@ -25,8 +25,8 @@ Download the file in the data folder and Unzip the file in UCI HAR Dataset folde
 
 ###Step 3: Uses descriptive activity names to name the activities in the data set
 * The objective of this step is to map the activity labels to their actual activity names.
-* Read descriptive activity names from **activity_labels.txt**
-* Replace **activity** variable in **Data** using descriptive activity names
+* Read descriptive activity names from **activity_labels.txt**.
+* Replace **activity** variable in **Data** using descriptive activity names.
 
 ###Step 4: Appropriately labels the data set with descriptive variable names.
 * Variables activity and subject and names of the activities have been labelled using descriptive names in Step 1 and Step 3.
@@ -40,9 +40,9 @@ Download the file in the data folder and Unzip the file in UCI HAR Dataset folde
        
 ###Step 5: Creates a second, independent tidy data set and output it.
 * In this step, a second, independent tidy data set will be created with the average of each variable for each activity and
-  each subject based on the data set in Step 5.
+  each subject based on the data set in Step 4.
 * The last step is to get the aggregated information from the **Data**
 * plyr package is used for this approach.
-* Finally, output a file named "tidydata.txt"
+* Finally, output a file named "tidydata.txt".
 
 prepared by Suet Pin
