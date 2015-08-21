@@ -39,10 +39,8 @@ Download the file in the data folder and Unzip the file in UCI HAR Dataset folde
   * BodyBody is replaced by Body
        
 ###Step 5: Creates a second, independent tidy data set and output it.
-* In this step, a second, independent tidy data set will be created with the average of each variable for each activity and
-  each subject based on the data set in Step 4.
-* The last step is to get the aggregated information from the **Data**
-* plyr package is used for this approach.
+* In this step, a second, independent tidy data set **Data2** will be created with the average of each variable for each activity and each subject based on the data set in Step 4.
+* The last step is to get the aggregated information with plyr package.
 * Finally, output a file named "tidydata.txt".
 
 prepared by Suet Pin
